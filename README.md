@@ -1,4 +1,4 @@
-#Phase 1
+# Phase 1
 # Codeuctivity – Smarter Code Summaries via LoRA-fine-tuned CodeT5
 
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
