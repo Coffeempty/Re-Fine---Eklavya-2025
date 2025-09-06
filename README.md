@@ -1,4 +1,7 @@
-# Aim and Abstract
+# Re:Fine - A Eklavya 2025 Project
+
+
+## Aim and Abstract
 
 Productivity, in software development, is about reducing the time and effort spent on understanding code so developers can focus on creating. Code is not just instructions for machines—it’s a shared language between humans. If models can effectively summarize and explain code, we boost both speed and clarity.
 
