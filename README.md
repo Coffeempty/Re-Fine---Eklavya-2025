@@ -1,3 +1,17 @@
+# Aim and Abstract
+
+Productivity, in software development, is about reducing the time and effort spent on understanding code so developers can focus on creating. Code is not just instructions for machines—it’s a shared language between humans. If models can effectively summarize and explain code, we boost both speed and clarity.
+
+Our project, **Re:Fine**, set out to achieve this by fine-tuning **CodeT5**. We began with supervised fine-tuning, training the model on code–summary pairs to establish a solid baseline. From there, we expanded into reinforcement learning, moving beyond imitation to actively rewarding outputs that were more accurate, readable, and useful.
+
+To further strengthen the model, we experimented with **synthetic data generation** to supplement scarce labeled datasets. This allowed for greater diversity and better generalization.
+
+Insights from our first project guided the design of our second iteration, where we introduced **Generalized Reinforcement Policy Optimization (GRPO)**. GRPO helped stabilize reinforcement learning and made the fine-tuning process more efficient.
+
+In short, **Re:Fine** is not just about teaching LLMs to understand code, but about **refining them to make humans more productive with it**.
+
+
+
 # Phase 1
 # Codeuctivity – Smarter Code Summaries via LoRA-fine-tuned CodeT5
 
