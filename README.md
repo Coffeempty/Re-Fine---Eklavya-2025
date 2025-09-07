@@ -21,7 +21,6 @@ In short, **Re:Fine** is not just about teaching LLMs to understand code, but ab
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-🤗-orange)](https://huggingface.co/)
 [![Weights & Biases](https://img.shields.io/badge/W%26B-Logging-blueviolet)](https://wandb.ai)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)]()
 
 ---
