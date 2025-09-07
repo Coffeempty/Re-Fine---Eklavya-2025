@@ -146,11 +146,10 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 [![PyTorch](https://img.shields.io/badge/PyTorch-🔥-ee4c2c)](https://pytorch.org/)  
 [![HuggingFace](https://img.shields.io/badge/🤗-Transformers-yellow)](https://huggingface.co/)  
 [![OpenPipe ART](https://img.shields.io/badge/OpenPipe-ART-blue)](https://openpipe.ai/blog/ruler)  
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)  
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This repository explores **reinforcement learning fine-tuning (RLFT)** for large language models using the **GRPO (Generalized REINFORCE with Policy Optimization)** algorithm.  
 
@@ -159,11 +158,11 @@ Unlike traditional RLHF pipelines that rely on costly labeled datasets, this pro
 - **RULER (rule-based reward evaluation)** → Scores outputs against task-specific criteria.  
 - **GRPO** → Optimizes the model using stable, KL-regularized policy gradients.  
 
-✨ The result is a **closed-loop system** where the model can train itself on **any task** simply by editing the **task description** in the notebook.  
+ The result is a **closed-loop system** where the model can train itself on **any task** simply by editing the **task description** in the notebook.  
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 1. **Task Definition**  
    - Specify your desired behavior in the notebook (e.g., *“Rewrite text in a given style”*).  
@@ -182,7 +181,7 @@ Unlike traditional RLHF pipelines that rely on costly labeled datasets, this pro
    - Rewards from RULER guide the optimization loop.  
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Synthetic data pipeline** – no datasets required.  
 - **Task-agnostic training** – modify the task description to adapt training.  
@@ -192,7 +191,7 @@ Unlike traditional RLHF pipelines that rely on costly labeled datasets, this pro
 
 ---
 
-## 📚 Background
+## Background
 
 ### 🔹 GRPO in RL Fine-Tuning
 GRPO is an RL algorithm that extends REINFORCE with:  
@@ -230,12 +229,12 @@ This project currently includes **one training run**.
 📈 Training Graphs:  
 ![All Graphs](assets/all_graphs_rl.png)  
 
-🪙 Policy Loss:  
+ Policy Loss:  
 ![Policy Loss](assets/loss_rl.png)  
 
 ---
 
-## 🔬 Inference Showcase
+## Inference Showcase
 
 After training, the model was tested on **unseen prompts** with style-transfer objectives.  
 
@@ -251,7 +250,7 @@ After training, the model was tested on **unseen prompts** with style-transfer o
 
 ---
 
-### 🎉 Capability Summary
+### Capability Summary
 
 The fine-tuned model **`rl-model-001`** can:  
 - Dynamically generate its own synthetic data.  
@@ -265,7 +264,7 @@ The fine-tuned model **`rl-model-001`** can:
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Requirements
 This repo uses:  
